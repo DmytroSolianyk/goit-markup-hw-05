@@ -523,14 +523,21 @@ img {
   background-color: transparent;
   padding-left: 16px;
   outline: none;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.footer-feedback-input::placeholder {
+  color: #ffffff;
 }
 
 .footer-feedback-btn {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 164px;
+  min-width: 165px;
   height: 40px;
-  margin-left: 24px;
   background: #4d5ae5;
   border: none;
 
@@ -542,11 +549,16 @@ img {
   color: #fff;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.footer-feedback-btn .icon {
+  margin-left: 16px;
 }
 
 .footer-feedback-form {
   display: flex;
+  gap: 24px;
 }
 
 /** ============================== */
