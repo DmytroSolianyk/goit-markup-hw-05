@@ -759,6 +759,10 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form .modal-field:nth-last-of-type(2) {
+  margin-bottom: 16px;
+}
+
 .modal-form .modal-field:last-of-type {
   margin-bottom: 24px;
 }
